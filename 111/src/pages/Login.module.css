@@ -1,0 +1,49 @@
+.loginPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../assets/images/restaurant.jpg') center/cover no-repeat;
+  backdrop-filter: blur(2px);
+}
+
+.formContainer {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h2 {
+  color: #8b0000;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #b30000;
+}
